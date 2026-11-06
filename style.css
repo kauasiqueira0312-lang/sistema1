@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Griffy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Griffy&family=Playwrite+IT+Trad:wght@100..400&display=swap');
+
+body {
+    background-color: rgb(71, 1, 1);
+    color: black;
+    font-family: 'Griffy', sans-serif;
+}
+
+h2 {
+    font-family: 'Dr Sugiyama', cursive, sans-serif;
+    color: rgb(161, 8, 8);
+}
+
+.painel {
+    background-color: rgb(244, 246, 246);
+    padding: 20px;
+    /* Nota: A propriedade 'border' precisa de espessura, estilo e cor (ex: border: 1px solid black). 
+       Se você não quer borda, é melhor remover essa linha ou usar 'border: none;' */
+    box-shadow: 0px 4px 10px rgb(97, 0, 5);
+    width: 100%;
+    max-width: 400px; /* Opcional: limita a largura máxima para o painel não esticar demais na tela */
+    margin: 50px auto; /* Centraliza o painel na tela */
+    border-radius: 10px; /* Deixa as bordas arredondadas, fica super bonito! */
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgba(88, 0, 0, 0.507);
+    color: white; /* Mudado para branco para facilitar a leitura do texto */
+    border: none; /* CORRIGIDO: de 'nome' para 'none' */
+    cursor: pointer; /* 'pointer' é o padrão de mãozinha para botões */
+    /* Removido o 'width: 100px' para ele respeitar o 'width: 100%' de cima e ocupar o espaço todo */
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: rgb(88, 0, 0); /* O texto fica escuro para aparecer no fundo claro */
+}

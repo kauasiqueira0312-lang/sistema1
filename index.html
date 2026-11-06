@@ -1,0 +1,33 @@
+<!DOCTYPE html><!-- Define o tipo de documento HTML5 -->
+<html lang="pt-BR"> <!-- Inicia o documento HTML e define o idioma principal -->
+<head><!-- Define o cabeçalho do documento -->
+    <meta charset="UTF-8"><!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a viewport para tornar o site responsivo em dispositivos móveis -->
+    <title>Aula Laço FOR() ➰</title>
+    <!-- Define o título do documento -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Início do corpo do documento -->
+    <div class="painel"> <!-- Criação da caixa container centralizada -->
+        <h2>Gerador de Tabuada</h2> <!-- Título principal exibido dentro do painel -->
+        <label for="numero">Digite um número:</label> <!-- Rótulo de texto descritivo para o campo de input -->
+        <input type="number" id="numero" placeholder="Ex: 7"> <!-- Campo numérico onde o usuário insere o número base -->
+        
+        <!-- Botão que, ao ser clicado, chama a função JavaScript 'gerarTabuada()' -->
+        <button onclick="gerarTabuada()">Calcular com Laço For</button>
+
+        <!-- Elemento de lista vazia (ul) com ID, que receberá dinamicamente os resultados gerados pelo JS -->
+        <ul id="lista-resultado"></ul>
+    </div> <!-- Fim da div do painel -->
+
+    <!-- Carregamento do JavaScript antes de fechar o corpo da página -->
+    <script src="script.js"></script>
+</body>
+<!-- Fim do corpo do documento -->
+</html>
+<!-- Fim do documento HTML -->
